@@ -1,15 +1,15 @@
-# Benimation
+# Benimation releases
 
-Signed Android and Windows releases. This repository contains release artifacts and update metadata; the application source is private.
+Signed Android and Windows downloads for Benimation. Application source remains private.
 
-## Version 0.6.0
+## Current release: 0.7.0
 
-- New blue streaming home with featured artwork and spotlight banners.
-- Swipeable rows for fresh episodes, popular anime, dubbed series and movie nights.
-- Fixed navigation, synced favourites, Continue Watching, search and offline libraries.
+[Android APK](https://github.com/Benighter/Benimation-Releases/releases/download/v0.7.0/Benimation-0.7.0.apk) · [Windows portable ZIP](https://github.com/Benighter/Benimation-Releases/releases/download/v0.7.0/Benimation-0.7.0-Windows-x64.zip) · [Release notes and checksums](https://github.com/Benighter/Benimation-Releases/releases/tag/v0.7.0)
 
-[Download Android 0.6.0](https://github.com/Benighter/Benimation-Releases/releases/download/v0.6.0/Benimation-0.6.0.apk) · [Download Windows 0.6.0](https://github.com/Benighter/Benimation-Releases/releases/download/v0.6.0/Benimation-0.6.0-Windows-x64.zip)
+The blue streaming interface includes persistent Watched labels and manual checkboxes, automatic watched status at 95% genuine playback, independent concurrent downloads, and a whole-season action that skips episodes already saved or active. The header uses the approved B/play app icon.
 
-Android uses the existing signed in-app update channel and Android installation approval. Windows is a signed portable package: extract both files together and run Benimation.exe. The Windows signing certificate is self-signed.
+Android retains package `com.benighter.benimation`, the existing signing identity, and its verified in-app update feed. Windows includes the signed executable and WebView2 loader; extract both together. The Windows certificate is self-signed.
 
-Checksums and update manifests are included in each release. Catalog and media availability depend on external providers. Native Windows and Android-emulator checks do not constitute physical-phone testing.
+Verification includes native Windows playback, Android emulator playback and update installation, and overlapping local transfer fixtures. Physical-phone testing is not claimed. Catalog and media availability depend on external providers, network and device resources.
+
+[App library](https://benighters-personal-projects.vercel.app/) · [Android update manifest](https://github.com/Benighter/Benimation-Releases/releases/latest/download/android-update.json) · [Windows download manifest](https://github.com/Benighter/Benimation-Releases/releases/latest/download/windows-update.json)
