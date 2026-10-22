@@ -2,9 +2,11 @@
 
 Signed Android and Windows downloads for Benimation. Application source remains private.
 
-## Current release: 0.8.1
+## Current release: 0.8.2
 
-[Android APK](https://github.com/Benighter/Benimation-Releases/releases/download/v0.8.1/Benimation-0.8.1.apk) · [Windows portable ZIP](https://github.com/Benighter/Benimation-Releases/releases/download/v0.8.1/Benimation-0.8.1-Windows-x64.zip) · [Release notes and checksums](https://github.com/Benighter/Benimation-Releases/releases/tag/v0.8.1)
+[Android APK](https://github.com/Benighter/Benimation-Releases/releases/download/v0.8.2/Benimation-0.8.2.apk) · [Windows portable ZIP](https://github.com/Benighter/Benimation-Releases/releases/download/v0.8.2/Benimation-0.8.2-Windows-x64.zip) · [Release notes and checksums](https://github.com/Benighter/Benimation-Releases/releases/tag/v0.8.2)
+
+The season picker finds related Baki series across both catalogues, and Home and search suggestions keep AnimeSaga titles visible. Searches remain pending until the other catalogue finishes.
 
 Aniwatch and AnimeSaga share search, browsing, matching titles, episodes and the player. Available titles and episodes now appear while other providers finish loading. Video can start without waiting for every alternative server. Late results preserve the current episode, audio choice, source and watching position. Favorites, watched episodes, concurrent downloads and Continue Watching remain available.
 
